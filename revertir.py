@@ -1,0 +1,6 @@
+frase_input = str(input("Frase para invertir:"))
+frase_list = frase_input.split()
+print(frase_list) 
+frase_list_reserved = frase_list.reverse()
+frase_output = " ". join(frase_list)
+print(frase_output)
